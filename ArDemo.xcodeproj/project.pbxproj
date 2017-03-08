@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		399DFB011E6FE684008E564B /* chair.obj in Resources */ = {isa = PBXBuildFile; fileRef = 399DFAF91E6FE684008E564B /* chair.obj */; };
+		399DFB021E6FE684008E564B /* chair.tga in Resources */ = {isa = PBXBuildFile; fileRef = 399DFAFA1E6FE684008E564B /* chair.tga */; };
+		399DFB031E6FE684008E564B /* cube.obj in Resources */ = {isa = PBXBuildFile; fileRef = 399DFAFB1E6FE684008E564B /* cube.obj */; };
+		399DFB041E6FE684008E564B /* demon.model in Resources */ = {isa = PBXBuildFile; fileRef = 399DFAFC1E6FE684008E564B /* demon.model */; };
+		399DFB051E6FE684008E564B /* demon.png in Resources */ = {isa = PBXBuildFile; fileRef = 399DFAFD1E6FE684008E564B /* demon.png */; };
+		399DFB061E6FE684008E564B /* diamond.obj in Resources */ = {isa = PBXBuildFile; fileRef = 399DFAFE1E6FE684008E564B /* diamond.obj */; };
+		399DFB071E6FE684008E564B /* quad.obj in Resources */ = {isa = PBXBuildFile; fileRef = 399DFAFF1E6FE684008E564B /* quad.obj */; };
+		399DFB081E6FE684008E564B /* ship.obj in Resources */ = {isa = PBXBuildFile; fileRef = 399DFB001E6FE684008E564B /* ship.obj */; };
+		399DFB1D1E6FEA9F008E564B /* GLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 399DFB0C1E6FEA9F008E564B /* GLUtils.m */; };
+		399DFB1E1E6FEA9F008E564B /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 399DFB0E1E6FEA9F008E564B /* GLView.m */; };
+		399DFB1F1E6FEA9F008E564B /* GLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 399DFB111E6FEA9F008E564B /* GLImage.m */; };
+		399DFB201E6FEA9F008E564B /* GLImageMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 399DFB131E6FEA9F008E564B /* GLImageMap.m */; };
+		399DFB211E6FEA9F008E564B /* GLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 399DFB151E6FEA9F008E564B /* GLImageView.m */; };
+		399DFB221E6FEA9F008E564B /* GLLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 399DFB181E6FEA9F008E564B /* GLLight.m */; };
+		399DFB231E6FEA9F008E564B /* GLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 399DFB1A1E6FEA9F008E564B /* GLModel.m */; };
+		399DFB241E6FEA9F008E564B /* GLModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 399DFB1C1E6FEA9F008E564B /* GLModelView.m */; };
+		399DFB261E6FEC32008E564B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399DFB251E6FEC32008E564B /* OpenGLES.framework */; };
+		399DFB281E6FEC3A008E564B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399DFB271E6FEC3A008E564B /* QuartzCore.framework */; };
+		399DFB2A1E6FEC40008E564B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399DFB291E6FEC40008E564B /* CoreGraphics.framework */; };
+		399DFB2C1E6FEC4D008E564B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399DFB2B1E6FEC4D008E564B /* UIKit.framework */; };
+		399DFB2E1E6FEC54008E564B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399DFB2D1E6FEC54008E564B /* Foundation.framework */; };
 		7519D4B21E6FDD3A00D5D456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7519D4B11E6FDD3A00D5D456 /* main.m */; };
 		7519D4B51E6FDD3A00D5D456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7519D4B41E6FDD3A00D5D456 /* AppDelegate.m */; };
 		7519D4B81E6FDD3A00D5D456 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7519D4B71E6FDD3A00D5D456 /* ViewController.m */; };
@@ -20,6 +41,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		399DFAF91E6FE684008E564B /* chair.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chair.obj; sourceTree = "<group>"; };
+		399DFAFA1E6FE684008E564B /* chair.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = chair.tga; sourceTree = "<group>"; };
+		399DFAFB1E6FE684008E564B /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
+		399DFAFC1E6FE684008E564B /* demon.model */ = {isa = PBXFileReference; lastKnownFileType = file; path = demon.model; sourceTree = "<group>"; };
+		399DFAFD1E6FE684008E564B /* demon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demon.png; sourceTree = "<group>"; };
+		399DFAFE1E6FE684008E564B /* diamond.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = diamond.obj; sourceTree = "<group>"; };
+		399DFAFF1E6FE684008E564B /* quad.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quad.obj; sourceTree = "<group>"; };
+		399DFB001E6FE684008E564B /* ship.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ship.obj; sourceTree = "<group>"; };
+		399DFB0B1E6FEA9F008E564B /* GLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUtils.h; sourceTree = "<group>"; };
+		399DFB0C1E6FEA9F008E564B /* GLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLUtils.m; sourceTree = "<group>"; };
+		399DFB0D1E6FEA9F008E564B /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		399DFB0E1E6FEA9F008E564B /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+		399DFB101E6FEA9F008E564B /* GLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLImage.h; sourceTree = "<group>"; };
+		399DFB111E6FEA9F008E564B /* GLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLImage.m; sourceTree = "<group>"; };
+		399DFB121E6FEA9F008E564B /* GLImageMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLImageMap.h; sourceTree = "<group>"; };
+		399DFB131E6FEA9F008E564B /* GLImageMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLImageMap.m; sourceTree = "<group>"; };
+		399DFB141E6FEA9F008E564B /* GLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLImageView.h; sourceTree = "<group>"; };
+		399DFB151E6FEA9F008E564B /* GLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLImageView.m; sourceTree = "<group>"; };
+		399DFB171E6FEA9F008E564B /* GLLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLight.h; sourceTree = "<group>"; };
+		399DFB181E6FEA9F008E564B /* GLLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLight.m; sourceTree = "<group>"; };
+		399DFB191E6FEA9F008E564B /* GLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLModel.h; sourceTree = "<group>"; };
+		399DFB1A1E6FEA9F008E564B /* GLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLModel.m; sourceTree = "<group>"; };
+		399DFB1B1E6FEA9F008E564B /* GLModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLModelView.h; sourceTree = "<group>"; };
+		399DFB1C1E6FEA9F008E564B /* GLModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLModelView.m; sourceTree = "<group>"; };
+		399DFB251E6FEC32008E564B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		399DFB271E6FEC3A008E564B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		399DFB291E6FEC40008E564B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		399DFB2B1E6FEC4D008E564B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		399DFB2D1E6FEC54008E564B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		399DFB2F1E6FECD9008E564B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		61EF21D6C73FE67E535DBEA6 /* libPods-ArDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7519D4AD1E6FDD3A00D5D456 /* ArDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7519D4B11E6FDD3A00D5D456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +97,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399DFB2E1E6FEC54008E564B /* Foundation.framework in Frameworks */,
+				399DFB2C1E6FEC4D008E564B /* UIKit.framework in Frameworks */,
+				399DFB2A1E6FEC40008E564B /* CoreGraphics.framework in Frameworks */,
+				399DFB281E6FEC3A008E564B /* QuartzCore.framework in Frameworks */,
+				399DFB261E6FEC32008E564B /* OpenGLES.framework in Frameworks */,
 				83FA6C6A817A9033DE377A38 /* libPods-ArDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +116,68 @@
 				99D8778D81ADCA89BEC654C9 /* Pods-ArDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		399DFAF81E6FE684008E564B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				399DFAF91E6FE684008E564B /* chair.obj */,
+				399DFAFA1E6FE684008E564B /* chair.tga */,
+				399DFAFB1E6FE684008E564B /* cube.obj */,
+				399DFAFC1E6FE684008E564B /* demon.model */,
+				399DFAFD1E6FE684008E564B /* demon.png */,
+				399DFAFE1E6FE684008E564B /* diamond.obj */,
+				399DFAFF1E6FE684008E564B /* quad.obj */,
+				399DFB001E6FE684008E564B /* ship.obj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		399DFB091E6FEA9F008E564B /* GLView */ = {
+			isa = PBXGroup;
+			children = (
+				399DFB0A1E6FEA9F008E564B /* Core */,
+				399DFB0F1E6FEA9F008E564B /* Images */,
+				399DFB161E6FEA9F008E564B /* Models */,
+			);
+			path = GLView;
+			sourceTree = "<group>";
+		};
+		399DFB0A1E6FEA9F008E564B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				399DFB0B1E6FEA9F008E564B /* GLUtils.h */,
+				399DFB0C1E6FEA9F008E564B /* GLUtils.m */,
+				399DFB0D1E6FEA9F008E564B /* GLView.h */,
+				399DFB0E1E6FEA9F008E564B /* GLView.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		399DFB0F1E6FEA9F008E564B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				399DFB101E6FEA9F008E564B /* GLImage.h */,
+				399DFB111E6FEA9F008E564B /* GLImage.m */,
+				399DFB121E6FEA9F008E564B /* GLImageMap.h */,
+				399DFB131E6FEA9F008E564B /* GLImageMap.m */,
+				399DFB141E6FEA9F008E564B /* GLImageView.h */,
+				399DFB151E6FEA9F008E564B /* GLImageView.m */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		399DFB161E6FEA9F008E564B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				399DFB171E6FEA9F008E564B /* GLLight.h */,
+				399DFB181E6FEA9F008E564B /* GLLight.m */,
+				399DFB191E6FEA9F008E564B /* GLModel.h */,
+				399DFB1A1E6FEA9F008E564B /* GLModel.m */,
+				399DFB1B1E6FEA9F008E564B /* GLModelView.h */,
+				399DFB1C1E6FEA9F008E564B /* GLModelView.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		7519D4A41E6FDD3A00D5D456 = {
@@ -83,6 +201,8 @@
 		7519D4AF1E6FDD3A00D5D456 /* ArDemo */ = {
 			isa = PBXGroup;
 			children = (
+				399DFB091E6FEA9F008E564B /* GLView */,
+				399DFAF81E6FE684008E564B /* Resources */,
 				7519D4C71E6FDF9200D5D456 /* Category */,
 				7519D4B31E6FDD3A00D5D456 /* AppDelegate.h */,
 				7519D4B41E6FDD3A00D5D456 /* AppDelegate.m */,
@@ -103,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				7519D4B11E6FDD3A00D5D456 /* main.m */,
+				399DFB2F1E6FECD9008E564B /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -121,6 +242,11 @@
 		B9556B76BBDB9DA5244C952D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				399DFB2D1E6FEC54008E564B /* Foundation.framework */,
+				399DFB2B1E6FEC4D008E564B /* UIKit.framework */,
+				399DFB291E6FEC40008E564B /* CoreGraphics.framework */,
+				399DFB271E6FEC3A008E564B /* QuartzCore.framework */,
+				399DFB251E6FEC32008E564B /* OpenGLES.framework */,
 				61EF21D6C73FE67E535DBEA6 /* libPods-ArDemo.a */,
 			);
 			name = Frameworks;
@@ -188,9 +314,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399DFB031E6FE684008E564B /* cube.obj in Resources */,
+				399DFB041E6FE684008E564B /* demon.model in Resources */,
+				399DFB021E6FE684008E564B /* chair.tga in Resources */,
 				7519D4C01E6FDD3A00D5D456 /* LaunchScreen.storyboard in Resources */,
+				399DFB011E6FE684008E564B /* chair.obj in Resources */,
 				7519D4BD1E6FDD3A00D5D456 /* Assets.xcassets in Resources */,
+				399DFB081E6FE684008E564B /* ship.obj in Resources */,
+				399DFB071E6FE684008E564B /* quad.obj in Resources */,
+				399DFB061E6FE684008E564B /* diamond.obj in Resources */,
 				7519D4BB1E6FDD3A00D5D456 /* Main.storyboard in Resources */,
+				399DFB051E6FE684008E564B /* demon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,12 +383,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399DFB231E6FEA9F008E564B /* GLModel.m in Sources */,
 				7519D4D01E6FDFAF00D5D456 /* LFLivePreview.m in Sources */,
+				399DFB1E1E6FEA9F008E564B /* GLView.m in Sources */,
+				399DFB1D1E6FEA9F008E564B /* GLUtils.m in Sources */,
+				399DFB221E6FEA9F008E564B /* GLLight.m in Sources */,
 				7519D4B81E6FDD3A00D5D456 /* ViewController.m in Sources */,
 				7519D4CC1E6FDFA000D5D456 /* UIControl+YYAdd.m in Sources */,
 				7519D4B51E6FDD3A00D5D456 /* AppDelegate.m in Sources */,
+				399DFB1F1E6FEA9F008E564B /* GLImage.m in Sources */,
+				399DFB201E6FEA9F008E564B /* GLImageMap.m in Sources */,
 				7519D4CD1E6FDFA000D5D456 /* UIView+YYAdd.m in Sources */,
 				7519D4B21E6FDD3A00D5D456 /* main.m in Sources */,
+				399DFB211E6FEA9F008E564B /* GLImageView.m in Sources */,
+				399DFB241E6FEA9F008E564B /* GLModelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 847L9RGK36;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ArDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ArDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nsda.ArDemo;
@@ -387,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 847L9RGK36;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ArDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ArDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nsda.ArDemo;
