@@ -10,7 +10,7 @@
 #import "LFLivePreview.h"
 #import "GLModelView.h"
 
-@interface ViewController ()
+@interface ViewController () <UIActionSheetDelegate>
 
 @property (strong,nonatomic) GLModelView *modelView;
 @property (strong,nonatomic) UIButton *button;
@@ -26,14 +26,15 @@
     [self.view addSubview:self.modelView];
     self.modelView.frame = self.view.bounds;
     
-    self.button = [[UIButton alloc]initWithFrame:CGRectMake(20, 20, 60, 30)];
+    self.button = [[UIButton alloc]initWithFrame:CGRectMake(20, 20, 100, 40)];
     //[button setTitle:@"ship" forState:normal];
     self.button.layer.borderColor = [[UIColor blackColor]CGColor];
     self.button.layer.borderWidth = 1;
-    self.button.layer.cornerRadius = 15;
+    self.button.layer.cornerRadius = 20;
+    [self.button addTarget:self action:@selector(selectModel) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.button];
     
-    [self setModel:5];
+    [self setModel:2];
     
     UIPinchGestureRecognizer* pinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(pinchModel:)];
     [self.view addGestureRecognizer:pinch];
@@ -188,6 +189,22 @@
         transform = CATransform3DRotate(transform, factor * 0.314, 0.0, 1.0, 0.0);
         self.modelView.modelTransform = transform;
         [pan setTranslation:CGPointZero inView:view];
+    }
+}
+
+- (void)selectModel{
+    [[[UIActionSheet alloc] initWithTitle:nil
+                                 delegate:self
+                        cancelButtonTitle:nil
+                   destructiveButtonTitle:nil
+                        otherButtonTitles:@"Demon", @"Quad", @"Chair", @"Diamond", @"Cube", @"Ship", nil] showInView:self.view];
+}
+
+- (void)actionSheet:(__unused UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex >= 0)
+    {
+        [self setModel:buttonIndex];
     }
 }
 
