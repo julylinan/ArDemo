@@ -12,7 +12,7 @@ build/
 *.xcworkspace
 xcuserdata
 *.moved-aside
-DerivedData
+DerivedData/
 .idea/
 
 #CocoaPods
